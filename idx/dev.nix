@@ -17,7 +17,7 @@
     workspace = {
       # Runs when a workspace is first created with this \`dev.nix\` file
       onCreate = {
-        npm-install = "npm install --no-audit --prefer-offline";
+        npm-install = "npm install --legacy-peer-deps";
       };
       # To run something each time the environment is rebuilt, use the \`onStart\` hook
     };
